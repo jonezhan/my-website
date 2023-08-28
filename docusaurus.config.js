@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "My Site",
-  tagline: "Dinosaurs are cool",
+  tagline: "Design by John Zhan",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -78,6 +78,7 @@ const config = {
             label: "Tutorial",
           },
           { to: "/blog", label: "Blog", position: "left" },
+          { to: "/nihonStudy", label: "日语学习", position: "left" },
           {
             href: "https://github.com/facebook/docusaurus",
             label: "GitHub",
